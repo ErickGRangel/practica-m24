@@ -1,19 +1,11 @@
 @use 'variables' as v;
-
-
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html, body {
-  font-family: 'Segoe UI', system-ui, sans-serif; 
-  background-color: v.$background;
-  color: v.$text;
-}
 
-img { max-width: 100%; height: auto; display: block; }
-ul, ol { list-style: none; padding: 0; }
-button { font-family: inherit; font-size: 1rem; border: none; cursor: pointer; background: none; outline: none; }
-/* watch-trigger: updated to test watcher */
+
+
+
