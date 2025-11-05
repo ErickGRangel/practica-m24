@@ -1,0 +1,26 @@
+@use 'variables' as v;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif, sans-serif;
+  background: v.$bg;
+  color: v.$text;
+  line-height: 1.6;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 v.$spacing;
+}
+
+a {
+  color: v.$primary;
+  text-decoration: none;
+}

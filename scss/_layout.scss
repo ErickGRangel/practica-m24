@@ -1,0 +1,39 @@
+@use 'variables' as v;
+
+.header {
+  background: v.$card-bg;
+  box-shadow: v.$shadow;
+  padding: v.$spacing 0;
+  margin-bottom: v.$spacing * 2;
+  background-image: url('../img/fondo-3.jpg');
+  color: #fff;
+  background-size: cover;
+  text-align: center;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+
+.footer {
+  background: v.$card-bg;
+  padding: v.$spacing 0;
+  margin-top: v.$spacing * 3;
+  text-align: center;
+  color: #64748b;
+}
+
+.back-link {
+  display: inline-block;
+  margin: v.$spacing 0;
+  padding: 8px 16px;
+  background: v.$primary;
+  color: white;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: opacity 0.2s;
+
+  &:hover {
+    opacity: 0.9;
+  }
+}
