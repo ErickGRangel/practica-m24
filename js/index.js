@@ -78,9 +78,8 @@ function searchGame() {
   renderGames(filtered);
 }
 
-// Eventos
+
 searchBtn.addEventListener('click', searchGame);
 searchInput.addEventListener('input', searchGame);
 
-// Iniciar
 loadGames();
